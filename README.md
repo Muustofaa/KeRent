@@ -1,4 +1,4 @@
-# kerent
+# KeRent
 
 A new Flutter project.
 
