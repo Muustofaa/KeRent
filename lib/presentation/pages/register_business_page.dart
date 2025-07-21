@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:kerent/presentation/widgets/login_form.dart';
-import 'package:kerent/presentation/widgets/logo_section.dart';
+import '../widgets/register_business_form.dart';
+import '../widgets/logo_section.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+class RegisterBusinessPage extends StatelessWidget {
+  const RegisterBusinessPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class LoginPage extends StatelessWidget {
             Expanded(
               child: SingleChildScrollView(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: const LoginForm(),
+                child: const RegisterBusinessForm(),
               ),
             ),
           ],
